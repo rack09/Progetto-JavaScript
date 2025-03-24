@@ -67,8 +67,7 @@ Tutti i componenti (link, pulsanti e contenitori) sono stati generati tramite fu
 
 ### 🧩 **Struttura della navbar creata via JS**
 
-```
-html
+```html
 <nav id="idNav">
     <div id="divNav-1">
         <a id="aNav-1">Portfolio Melvin Rosales</a>
