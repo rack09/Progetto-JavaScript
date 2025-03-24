@@ -1,0 +1,23 @@
+/* CSS custom per nascondere gli spinner */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+/* 
+Stili per rimuovere l'ombra grigia che Bootstrap aggiunge 
+a un input con l'attributo disabled. Se commenti questa parte, 
+vedrai che il contatore tornerà al colore grigio.
+*/
+input.form-control[disabled] {
+    background-color: #fff !important;
+    color: #000 !important;
+    opacity: 1 !important;
+    box-shadow: none !important;
+    cursor: default;
+}
