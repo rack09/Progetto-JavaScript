@@ -8,6 +8,8 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=github&logoColor=white)](https://pages.github.com/)
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
 
+Questo è il progetto finale del modulo JavaScript del master Full Stack Development (Start2impact).
+
 ## 🚀 Descrizione del progetto
 
 🛠️ **Progetto realizzato interamente in JavaScript Vanilla** (senza framework come React, Vue o Angular).  
