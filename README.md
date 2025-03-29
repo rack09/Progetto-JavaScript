@@ -159,6 +159,26 @@ Questo sistema permette di:
 - Identificare rapidamente la sezione o il contesto di ogni elemento.
 - Facilitare la manutenzione e la modifica degli elementi attraverso JS, evitando conflitti o ambiguità nel progetto.
 
+---
+
+## 🛠️ Ottimizzazioni tecniche
+
+Durante lo sviluppo del progetto, ho applicato alcune ottimizzazioni per migliorare la qualità del codice, la scalabilità e la manutenzione.
+
+### 🔁 Event Delegation per i pulsanti del contatore
+
+Per gestire i click sui pulsanti `+` e `-`, inizialmente avevo usato due `addEventListener` distinti.  
+Successivamente ho implementato l’**Event Delegation**, assegnando un unico listener al contenitore `divSP-5`.
+
+```js
+document.getElementById('divSP-5').addEventListener('click', (event) => {
+  if (event.target.id === 'btnSP-1') {
+    value--;
+  } else if (event.target.id === 'btnSP-2') {
+    value++;
+  }
+  inputD.value = value;
+});```
 
 
 
