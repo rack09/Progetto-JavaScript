@@ -178,7 +178,8 @@ document.getElementById('divSP-5').addEventListener('click', (event) => {
     value++;
   }
   inputD.value = value;
-});```
+});
+```
 
 
 
